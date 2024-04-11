@@ -1,0 +1,133 @@
+/* Padrão de todas as páginas */
+
+
+* {margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+header{background-color: black; text-align: center;}
+
+header img {width: 7%;}
+
+menu {background-color: #292828; padding: 15px; text-transform: uppercase; padding-bottom: 25px; padding-top: 20px;}
+
+menu ul li {display: inline-flex; padding-left: 5px; padding-right: 5px; }
+
+menu ul li a{text-decoration: none; color: white;}
+
+menu ul li a:hover, .selecionado{text-decoration: underline; color: yellow;}
+
+.float {float: right; padding-bottom: 20px;}
+
+.botao {padding: 5px; border-radius: 3px; background-color: yellow; color: #292828; padding-right: 10px; padding-left: 10px;}
+
+.botao:hover {background-color: white; color: #292828; text-decoration: underline;}
+
+main {text-align: center; padding: 10px; background-color: #f1f1f1;}
+
+.esq {width: 30%; padding: 5px; margin: 10px; float: left; text-align: left;}
+
+.dir {width: 30%; padding: 5px; margin: 5px; float: right; text-align: right; color:white;}
+
+body {background-color: #292828;}
+
+.esq ul li {list-style: none;}
+
+.esq ul li a{color: white; text-decoration: none;}
+
+.esq ul li a:hover {color: yellow;}
+
+
+
+/* Página: Home */
+
+
+#cincopa_5d87c2 {width: 60%;}
+
+button {background-color: #292828; color: white; padding: 10px; padding-left: 20px; padding-right: 20px; text-decoration: none; font-size: large; border-radius: 5px;}
+
+button a {color: white; text-decoration: none;}
+
+button a:hover {color: yellow; text-decoration: underline;}
+
+
+/* Página: Sobre o Jogo */
+
+.centro {
+    width: 1000px;
+    margin: auto; /*centralizar*/
+}
+
+#itens {
+    background-color: #f1f1f1;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.grid {
+    display: grid ;/*aplicar a grid*/
+    grid-template-columns: 33% 33% 33% /* configuro as colunas*/
+}
+
+.grid .coluna {
+        box-shadow: 0 0 10px yellow;
+        margin: 10px;
+        background-color: #ccc;
+        color: black;
+    }
+
+.grid .coluna img {
+    width: 50%;
+    border-radius: 10px 10px 0 0; 
+}
+
+.grid .coluna p, #itens p, #dinossauro p {
+    margin: 15px;
+    text-align: center;
+}
+
+.grid2 {
+    display: grid ;/*aplicar a grid*/
+    grid-template-columns: 50% 50% /* configuro as colunas*/
+}
+
+.grid2 .coluna2 {
+        box-shadow: 0 0 10px yellow;
+        margin: 10px;
+        background-color: #ccc;
+        color: black;
+    }
+
+.grid2 .coluna2 img {
+    width: 25%;
+    border-radius: 10px 10px 0 0; 
+}
+
+.grid2 .coluna2 p, #itens p, #dinossauro p {
+    margin: 15px;
+    text-align: center;
+}
+
+/* Página: Sobre o Desenvolvedor */
+
+#sobreodev {text-align: left;}
+
+#sobreodev h2{padding-bottom: 5px;}
+
+.sobreodev img {width: 30px; margin-right: 5px;}
+
+.sobreodev {display: inline-flex; text-align: justify;}
+
+#sobreodev ul li a img {
+    width: 50px;
+    padding-right: 8px;
+}
+
+#sobreodev ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
