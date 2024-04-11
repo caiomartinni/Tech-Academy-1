@@ -129,3 +129,18 @@ section {
     list-style: none;
     text-decoration: none;
 }
+
+.rodapejogo {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.rodapejogo a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.rodapejogo a:hover {
+    color: yellow;
+}
