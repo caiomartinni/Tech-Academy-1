@@ -144,3 +144,43 @@ section {
 .rodapejogo a:hover {
     color: yellow;
 }
+
+
+/* Página de Contato */
+
+
+form input {
+    width: 400px;
+    padding: 5px;
+    margin-top: 5px;
+    height: 20px;
+    border: 2px solid #292828;
+    border-radius: 4px;
+}
+
+form textarea {
+    width: 400px;
+    padding: 5px;
+    margin-top: 5px;
+    height: 80px;
+    border: 2px solid #292828;
+    border-radius: 4px;
+}
+
+.buttonform {
+    border: 2px solid #292828;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.buttonform:hover {
+    background-color: #292828;
+    text-decoration: underline;
+    color: yellow;
+}
