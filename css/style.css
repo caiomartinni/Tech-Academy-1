@@ -110,6 +110,9 @@ section {
     text-align: center;
 }
 
+.construct {
+    width: 30px;
+}
 /* Página: Sobre o Desenvolvedor */
 
 #sobreodev {text-align: left;}
@@ -145,7 +148,13 @@ section {
     color: yellow;
 }
 
+.devpage {
+    padding-left: 50px;
+}
 
+.redesocial li {
+    list-style: none;
+}
 /* Página de Contato */
 
 
