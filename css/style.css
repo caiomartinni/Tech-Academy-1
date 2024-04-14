@@ -193,3 +193,10 @@ form textarea {
     text-decoration: underline;
     color: yellow;
 }
+
+
+/* Página de Créditos */
+
+.credit-icon {
+    width: 30px;
+}
