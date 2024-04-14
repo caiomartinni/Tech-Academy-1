@@ -1,59 +1,145 @@
 /* Padrão de todas as páginas */
 
 
-* {margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-header{background-color: black; text-align: center;}
+header {
+    background-color: black;
+    text-align: center;
+}
 
-header img {width: 7%;}
+header img {
+    width: 7%;
+}
 
-menu {background-color: #292828; padding: 15px; text-transform: uppercase; padding-bottom: 25px; padding-top: 20px;}
+menu {
+    background-color: #292828;
+    padding: 15px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
 
-menu ul li {display: inline-flex; padding-left: 5px; padding-right: 5px; }
+menu ul li {
+    display: inline-flex;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-menu ul li a{text-decoration: none; color: white;}
+menu ul li a {
+    text-decoration: none;
+    color: white;
+}
 
-menu ul li a:hover, .selecionado{text-decoration: underline; color: yellow;}
+menu ul li a:hover,
+.selecionado {
+    text-decoration: underline;
+    color: yellow;
+}
 
-.float {float: right; padding-bottom: 20px;}
+.float {
+    float: right;
+    padding-bottom: 20px;
+}
 
-.botao {padding: 5px; border-radius: 3px; background-color: yellow; color: #292828; padding-right: 10px; padding-left: 10px;}
+.botao {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: yellow;
+    color: #292828;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
-.botao:hover {background-color: white; color: #292828; text-decoration: underline;}
+.botao:hover {
+    background-color: white;
+    color: #292828;
+    text-decoration: underline;
+}
 
-main {text-align: center; padding: 10px; background-color: #f1f1f1;}
+main {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
 
-.esq {width: 30%; padding: 5px; margin: 10px; float: left; text-align: left;}
+.esq {
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    text-align: left;
+}
 
-.dir {width: 30%; padding: 5px; margin: 5px; float: right; text-align: right; color:white;}
+.dir {
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    text-align: right;
+    color: white;
+}
 
-body {background-color: #292828;}
+body {
+    background-color: #292828;
+}
 
-.esq ul li {list-style: none;}
+.esq ul li {
+    list-style: none;
+}
 
-.esq ul li a{color: white; text-decoration: none;}
+.esq ul li a {
+    color: white;
+    text-decoration: none;
+}
 
-.esq ul li a:hover {color: yellow;}
+.esq ul li a:hover {
+    color: yellow;
+}
 
 
 
 /* Página: Home */
 
 
-#cincopa_5d87c2 {width: 60%;}
 
-button {background-color: #292828; color: white; padding: 10px; padding-left: 20px; padding-right: 20px; text-decoration: none; font-size: large; border-radius: 5px;}
+#cincopa_5d87c2 {
+    width: 60%;
+}
 
-button a {color: white; text-decoration: none;}
+button {
+    background-color: #292828;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 5px;
+}
 
-button a:hover {color: yellow; text-decoration: underline;}
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
 
 
 /* Página: Sobre o Jogo */
 
+
 .centro {
     width: 1000px;
-    margin: auto; /*centralizar*/
+    margin: auto;
+    /*centralizar*/
 }
 
 #itens {
@@ -67,45 +153,53 @@ section {
 }
 
 .grid {
-    display: grid ;/*aplicar a grid*/
-    grid-template-columns: 33% 33% 33% /* configuro as colunas*/
+    display: grid;
+    /*aplicar a grid*/
+    grid-template-columns: 33% 33% 33%
+        /* configuro as colunas*/
 }
 
 .grid .coluna {
-        box-shadow: 0 0 10px yellow;
-        margin: 10px;
-        background-color: #ccc;
-        color: black;
-    }
+    box-shadow: 0 0 10px yellow;
+    margin: 10px;
+    background-color: #ccc;
+    color: black;
+}
 
 .grid .coluna img {
     width: 50%;
-    border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0;
 }
 
-.grid .coluna p, #itens p, #dinossauro p {
+.grid .coluna p,
+#itens p,
+#dinossauro p {
     margin: 15px;
     text-align: center;
 }
 
 .grid2 {
-    display: grid ;/*aplicar a grid*/
-    grid-template-columns: 50% 50% /* configuro as colunas*/
+    display: grid;
+    /*aplicar a grid*/
+    grid-template-columns: 50% 50%
+        /* configuro as colunas*/
 }
 
 .grid2 .coluna2 {
-        box-shadow: 0 0 10px yellow;
-        margin: 10px;
-        background-color: #ccc;
-        color: black;
-    }
+    box-shadow: 0 0 10px yellow;
+    margin: 10px;
+    background-color: #ccc;
+    color: black;
+}
 
 .grid2 .coluna2 img {
     width: 25%;
-    border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0;
 }
 
-.grid2 .coluna2 p, #itens p, #dinossauro p {
+.grid2 .coluna2 p,
+#itens p,
+#dinossauro p {
     margin: 15px;
     text-align: center;
 }
@@ -113,15 +207,28 @@ section {
 .construct {
     width: 30px;
 }
+
+
 /* Página: Sobre o Desenvolvedor */
 
-#sobreodev {text-align: left;}
 
-#sobreodev h2{padding-bottom: 5px;}
+#sobreodev {
+    text-align: left;
+}
 
-.sobreodev img {width: 30px; margin-right: 5px;}
+#sobreodev h2 {
+    padding-bottom: 5px;
+}
 
-.sobreodev {display: inline-flex; text-align: justify;}
+.sobreodev img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.sobreodev {
+    display: inline-flex;
+    text-align: justify;
+}
 
 #sobreodev ul li a img {
     width: 50px;
@@ -155,6 +262,8 @@ section {
 .redesocial li {
     list-style: none;
 }
+
+
 /* Página de Contato */
 
 
@@ -197,6 +306,62 @@ form textarea {
 
 /* Página de Créditos */
 
+
 .credit-icon {
     width: 30px;
+}
+
+
+/* Responsividade */
+
+
+@media (max-width: 460px) {
+
+
+    /* Todas as páginas */
+    header img {
+        width: 50%;
+    }
+
+    menu {
+        padding-bottom: 30px;
+    }
+    menu ul li {
+        display: block;
+    }  
+    
+    menu ul li a:hover,
+    .selecionado {
+        text-decoration: underline;
+        color: yellow;
+    }
+    
+    .botao {
+        padding: 0;
+        text-decoration: none;
+        color: yellow;
+        background-color: #292828;
+    }   
+
+    .float {
+        float: left;
+    }
+
+    .esq {
+        float: inline-start;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dir {
+        float: inline-end;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* Home */
+    #cincopa_5d87c2 {
+        height: 50%;
+    }
 }
