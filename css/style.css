@@ -364,4 +364,39 @@ form textarea {
     #cincopa_5d87c2 {
         height: 50%;
     }
+
+    .grid {
+        flex-direction: column;
+        display: block;
+    }
+
+    .grid2 {
+        flex-direction: column;
+        display: block;
+    }
+
+    .grid .coluna {
+        padding: 5px;
+        margin: 20px 10px;
+    }
+
+    .centro h2 {
+
+    }
+
+    menu ul li {
+        padding: 4px;
+    }
+
+    .centro {
+        width: 100%;
+    }
+
+    .contatotitle {
+        padding: 20px;
+    }
+
+    input {
+        width: 100%;
+    }
 }
